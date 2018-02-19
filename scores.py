@@ -6,10 +6,6 @@ school_journal = [
 {'school_class': '6b', 'scores': [5,4,2,2,4]},
 ]
 
-#print(school_journal)
-
-#for school_cl, score in school_journal[school_cl]['scores'][score]:
-#    pass
 
 all_scores = []
 

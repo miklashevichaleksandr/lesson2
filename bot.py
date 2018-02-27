@@ -28,8 +28,11 @@ def get_constellation(bot, update, args):
     
     d = datetime.datetime.now()
     today = d.strftime('%Y/%m/%d')
-    
-    constellation = ephem.constellation(ephem.???(today))[1]
+
+    ephem_planet = getattr(ephem, planet)
+    ephem_planet_date = ephem_planet(today)
+
+    constellation = ephem.constellation(ephem_planet_date)[1]
     update.message.reply_text(constellation)
 
 

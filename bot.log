@@ -326,3 +326,31 @@ Traceback (most recent call last):
     raise TimedOut()
 telegram.error.TimedOut: Timed out
 telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 32, in get_constellation
+    ephem_planet = getattr(ephem, planet)
+AttributeError: module 'ephem' has no attribute 'Jupyter'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 32, in get_constellation
+    ephem_planet = getattr(ephem, planet)
+AttributeError: module 'ephem' has no attribute 'Upiter'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 32, in get_constellation
+    ephem_planet = getattr(ephem, planet)
+AttributeError: module 'ephem' has no attribute 'Alfa'
+telegram.ext.updater - WARNING - Exiting immediately!

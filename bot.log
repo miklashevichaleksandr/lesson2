@@ -1,0 +1,328 @@
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/updater.py", line 286, in _start_polling
+    allowed_updates=allowed_updates)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 1720, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 272, in post
+    **urlopen_kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 220, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/updater.py", line 286, in _start_polling
+    allowed_updates=allowed_updates)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 1720, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 272, in post
+    **urlopen_kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 220, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/updater.py", line 286, in _start_polling
+    allowed_updates=allowed_updates)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 1720, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 272, in post
+    **urlopen_kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 220, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/updater.py", line 286, in _start_polling
+    allowed_updates=allowed_updates)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 1720, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 272, in post
+    **urlopen_kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 220, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/updater.py", line 286, in _start_polling
+    allowed_updates=allowed_updates)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 1720, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 272, in post
+    **urlopen_kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 220, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/updater.py", line 286, in _start_polling
+    allowed_updates=allowed_updates)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 1720, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 272, in post
+    **urlopen_kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 220, in _request_wrapper
+    raise NetworkError('{0} ({1})'.format(message, resp.status))
+telegram.error.NetworkError: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 31, in get_constellation
+    constellation = ephem.constellation(ephem.planet(today))[1]
+AttributeError: module 'ephem' has no attribute 'planet'
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 31, in get_constellation
+    constellation = ephem.constellation(ephem.planet(today))[1]
+AttributeError: module 'ephem' has no attribute 'planet'
+telegram.ext.updater - ERROR - Error while getting Updates: Timed out
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1198, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 576, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/ssl.py", line 937, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/ssl.py", line 799, in read
+    return self._sslobj.read(len, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/ssl.py", line 583, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 190, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 70, in request
+    **urlopen_kw)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 405, in _make_request
+    exc_cls=ReadTimeoutError)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=12.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/updater.py", line 286, in _start_polling
+    allowed_updates=allowed_updates)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 1720, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 272, in post
+    **urlopen_kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 192, in _request_wrapper
+    raise TimedOut()
+telegram.error.TimedOut: Timed out
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 27, in get_constellation
+    planet = args.capitalize()
+AttributeError: 'list' object has no attribute 'capitalize'
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 31, in get_constellation
+    constellation = ephem.constellation(ephem.planet(today))[1]
+AttributeError: module 'ephem' has no attribute 'planet'
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 31, in get_constellation
+    constellation = ephem.constellation(ephem.planet(today))[1]
+AttributeError: module 'ephem' has no attribute 'planet'
+telegram.ext.updater - ERROR - Error while getting Updates: Timed out
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1198, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 576, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/ssl.py", line 937, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/ssl.py", line 799, in read
+    return self._sslobj.read(len, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/ssl.py", line 583, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 190, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 70, in request
+    **urlopen_kw)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 405, in _make_request
+    exc_cls=ReadTimeoutError)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=12.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/updater.py", line 286, in _start_polling
+    allowed_updates=allowed_updates)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 1720, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 272, in post
+    **urlopen_kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 192, in _request_wrapper
+    raise TimedOut()
+telegram.error.TimedOut: Timed out
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - ERROR - Error while getting Updates: Timed out
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1198, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 576, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/ssl.py", line 937, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/ssl.py", line 799, in read
+    return self._sslobj.read(len, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/ssl.py", line 583, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 190, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 70, in request
+    **urlopen_kw)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 405, in _make_request
+    exc_cls=ReadTimeoutError)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=12.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/ext/updater.py", line 286, in _start_polling
+    allowed_updates=allowed_updates)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/bot.py", line 1720, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 272, in post
+    **urlopen_kwargs)
+  File "/Users/miklash90/projects/lessons2/env/lib/python3.5/site-packages/telegram/utils/request.py", line 192, in _request_wrapper
+    raise TimedOut()
+telegram.error.TimedOut: Timed out
+telegram.ext.updater - WARNING - Exiting immediately!

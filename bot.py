@@ -14,6 +14,7 @@ def main():
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", greet_user))
     dp.add_handler(CommandHandler("planet", get_constellation, pass_args=True))
+    dp.add_handler(CommandHandler("wordcount", get_count, pass_args=True))
     dp.add_handler(MessageHandler(Filters.text, talk_to_me))
     updater.start_polling()
     updater.idle()
@@ -35,6 +36,30 @@ def get_constellation(bot, update, args):
     constellation = ephem.constellation(ephem_planet_date)[1]
     update.message.reply_text(constellation)
 
+def get_count(bot, update, args):
+    word_count = len(args)
+    first_char = args[0][0]
+    last_char = args[-1][-1]
+    first_group = args[0]
+    last_group = args[-1]
+
+    count_message = ''
+
+    if not args:
+        count_message = "Строка не может быть пустой! Попробуйте еще раз"
+
+    elif first_char != '\"' or last_char != '\"':
+        count_message = "Строка должна быть заключена в двойные кавычки!"
+
+    elif first_group == '\"' or last_group == '\"':
+        count_message = "Не допускайте лишних пробелов между фразой и кавычками!"
+
+    else:
+        count_message = "Количество слов {}".format(word_count)
+
+    update.message.reply_text(count_message)
+
+    
 
 def talk_to_me(bot, update):
     user_text = update.message.text

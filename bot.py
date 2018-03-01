@@ -2,6 +2,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 import ephem
 import datetime
+import re
 
 logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
@@ -60,6 +61,18 @@ def get_count(bot, update, args):
 def talk_to_me(bot, update):
     user_text = update.message.text
     print(user_text)
-    update.message.reply_text(user_text)
+
+    output_text = ''
+    if user_text[-1] == '=':
+        output_text = calculator(user_text)
+    else:
+        output_text = user_text;
+
+    update.message.reply_text(output_text)
+
+def calculator(user_text):
+    pass
+#    splitted_string = re.split('\W', user_text)
+
 
 main()

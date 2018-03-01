@@ -38,20 +38,16 @@ def get_constellation(bot, update, args):
 
 def get_count(bot, update, args):
     word_count = len(args)
-    first_char = args[0][0]
-    last_char = args[-1][-1]
-    first_group = args[0]
-    last_group = args[-1]
 
     count_message = ''
 
     if not args:
         count_message = "Строка не может быть пустой! Попробуйте еще раз"
 
-    elif first_char != '\"' or last_char != '\"':
+    elif args[0][0] != '"' or args[-1][-1] != '"':
         count_message = "Строка должна быть заключена в двойные кавычки!"
 
-    elif first_group == '\"' or last_group == '\"':
+    elif args[0] == '"' or args[-1] == '"':
         count_message = "Не допускайте лишних пробелов между фразой и кавычками!"
 
     else:
